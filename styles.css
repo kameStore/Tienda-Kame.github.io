@@ -1,0 +1,55 @@
+.banner{
+    width: 50%;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.enlace{
+    display: inline-block;
+    background: #EB8317;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.enlace:hover{
+    background: #00FF9C;
+}
+
+.encabezado {
+    margin: 0 0 10px; /* Asegura un margen adecuado entre el texto y la imagen */
+}
+
+.imagen-seccion {
+    width: 40%;
+    height: auto;
+    margin: 10px 50px 20px 100px;
+    display: block;
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.cuadro {
+    width: 30%;
+    border: 2px solid #ccc; /* Color y grosor del borde */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 20px; /* Espacio interno */
+    margin: 15px; /* Espacio entre cuadros */
+    background-color: white; /* Color de fondo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    clear: both; /* Asegura que no se solapen otros elementos */
+}
+
+.padre{
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 12px;
+}

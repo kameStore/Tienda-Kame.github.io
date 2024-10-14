@@ -1,0 +1,72 @@
+.navbar {
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    padding: 10px; /* Espacio interno */
+}
+
+.nav-enlace {
+    display: inline-block;
+    background: #EB8317;
+    padding: 10px;
+    color: white;
+    margin: 0px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover {
+    background-color: #45a049; /* Color al pasar el mouse */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #4CAF50;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.historia, .mision, .valores {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.imagen-sec {
+    width: 10%; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 4px; /* Esquinas redondeadas */
+    margin-bottom: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 12px;
+}
